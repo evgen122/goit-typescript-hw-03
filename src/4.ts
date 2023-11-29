@@ -2,7 +2,7 @@
 
 class Key {
   private signature: number;
-  constructor(signature: number = Math.random()) {
+  constructor(signature = Math.random()) {
     // this.signature = Math.random();
   }
 
